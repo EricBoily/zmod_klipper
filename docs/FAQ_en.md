@@ -336,6 +336,12 @@ Documentation is often unread, though 90% of questions are answered here. To ver
 
 ### What's the difference between using the screen and without the native screen?
 
+The printer can operate in two modes:
+- With the native screen - in this case, almost all operating logic is controlled by the native screen, and many features cannot be changed.
+- Without the native screen - in this case, all features are controlled by zMod.
+This doesn't mean you need to turn off the screen or replace it with a different one.
+In the mode without the native screen, you can use the alternative software screen GuppyScreen or turn off the screen completely, so it will turn off.
+
 > [!IMPORTANT]
 > Do not disable the screen unless you fully understand bed leveling, z-offset, and START_PRINT/END_PRINT macros
 
@@ -725,7 +731,7 @@ Reboot the printer twice.
 
 Removing the mod will restore the original logo. If this doesn't happen on the AD5M:
 - Install the mod
-- Upload the [boot.bmp](https://github.com/ghzserg/zmod/releases/download/R/boot.bmp) file to the `mod_data/logo` folder
+- Upload the [boot.bmp](https://github.com/ghzserg/FF/releases/download/R/boot.bmp) file to the `mod_data/logo` folder
 - Restart the printer
 
 <div align="center">
@@ -804,13 +810,7 @@ Accordingly, zMod needs to load native Klipper.
 - Save the file
 - Turn the printer off and on (do not reboot!)
 
-If you're running the MCU for Klipper 13, its version **must** match the mod version.
-
-Example:
-- MCU: v0.13.0-**375**-gba79d72f-dirty
-- zMod: 1.6.2.**375**-170
-
-As we can see, version **375** matches, so everything is fine.
+<img width="422" height="570" alt="image" src="https://github.com/user-attachments/assets/821eb1c7-8cba-4a22-951f-852b1cb6c8ef" />
 
 If this isn't the case and Klipper is working, run ```UPDATE_MCU FORCE=13``` - this command will install the latest MCU version.
 
