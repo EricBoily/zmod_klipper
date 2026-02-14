@@ -8,15 +8,15 @@
 3. Поместить файл из [Native firmware](/ru/Native_FW/) в корневую папку USB Flash
 
     - [Adventurer5M-3.1.9-2.2.3-20250807-Factory.tgz](https://github.com/ghzserg/FF/releases/download/R/Adventurer5M-3.1.9-2.2.3-20250807-Factory.tgz) для FF5m 
-       - [Adventurer5MPro-3.1.3-2.2.3-20250107-Factory.tgz](https://github.com/ghzserg/FF/releases/download/R/Adventurer5MPro-3.1.3-2.2.3-20250107-Factory.tgz) для FF5m**Pro** версии 
-       - [AD5X-1.1.7-1.1.0-3.0.6-20250912.tgz](https://github.com/ghzserg/FF/releases/download/R/AD5X-1.1.7-1.1.0-3.0.6-20250912-Factory.tgz.gz) для AD5X
+    - [Adventurer5MPro-3.1.3-2.2.3-20250107-Factory.tgz](https://github.com/ghzserg/FF/releases/download/R/Adventurer5MPro-3.1.3-2.2.3-20250107-Factory.tgz) для FF5m**Pro** версии 
+    - [AD5X-1.1.7-1.1.0-3.0.6-20250912.tgz](https://github.com/ghzserg/FF/releases/download/R/AD5X-1.1.7-1.1.0-3.0.6-20250912-Factory.tgz.gz) для AD5X
 
 4. Выключить принтер
 5. Вставить флешку в принтер
 6. Включить принтер
 7. Дождаться установки родной прошивки
 8. Настроить WiFi или Lan *новый бобер*
-9. Получить последние обновления для принтера
+9. Получить последние обновления для принтера или установить прошивку 1.1.7 для AD5X, или 3.2.3 для [AD5M](https://github.com/ghzserg/FF/releases/download/R/Adventurer5M-3.2.3-2.2.3-20251016-Factory.tgz)/[AD5MPro](https://github.com/ghzserg/FF/releases/download/R/Adventurer5MPro-3.2.3-2.2.3-20251017-Factory.tgz) если вы не хотите чтобы принтер [измерял стол перед каждой печатью](https://wiki.zmod.link/ru/FAQ/#перед-каждой-печатью-измеряет-стол-по-центру)
 
 ---
 
@@ -125,9 +125,9 @@
     <img width="673" height="467" alt="image" src="https://github.com/user-attachments/assets/70d5da64-0604-44e5-9102-887b758b5cf0" />
     <img width="473" height="395" alt="image" src="https://github.com/user-attachments/assets/ca4c5330-dc88-4372-a3c8-51527ae76146" />
 
-19. [Включите контроль MD5](/ru/Recomendations/#включите--контроль-md5)
+19. [Включите контроль MD5](/ru/Recomendations/#включите-контроль-md5)
 
-    <img width="307" height="131" alt="image" src="https://github.com/user-attachments/assets/c90c096e-ff42-4479-b094-9d57261e7f36" />
+    <img width="476" height="355" alt="image" src="https://github.com/user-attachments/assets/0b59a617-5613-4def-aa01-7fe038898863" />
 
 20. [Прочитайте рекомендации](/ru/Recomendations/)
 21. [Прочитайте FAQ](/ru/FAQ/)
@@ -262,6 +262,8 @@ BTC `17wXTd9BqYp1K3zCLTxVyGLEXUDjf7XNLL`
 Авторы инструкции: [@darksimpson](https://t.me/darksimpson), [Александр](https://github.com/DrA1ex), [@Ikaros413](https://t.me/Ikaros413), [@SoloMen88](https://t.me/SoloMen88)
 
 Для тех у кого принтер при включении повисает на заставке и не доступен по ЛАН кабелю.
+
+![resized-image](https://github.com/user-attachments/assets/f63b16e6-2425-41c8-a166-226fb041f5ad)
 
 ![](../images/ff.jpg)
 
